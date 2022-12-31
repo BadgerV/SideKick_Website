@@ -1,0 +1,24 @@
+.backgrroundWithText {
+    background-image: url(../../assets/dark_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    height: 30vh;
+    max-width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+@media (max-width: 50em) { 
+    .backgrroundWithText {
+        padding: 1em;
+        height: 20vh;
+        font-size: 1.5em;
+        max-width: 100%;
+    }
+}
